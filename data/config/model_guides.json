@@ -1,0 +1,94 @@
+{
+  "guides": [
+    {
+      "name": "SD 1.5",
+      "type": "image",
+      "syntax": "sd",
+      "structure": "(masterpiece, best quality:1.2), 主体, 细节, 环境, 光线, 镜头, 风格, 8k",
+      "negative": "强依赖负面词，建议用完整版。",
+      "tips": "画质前缀非常有效；75 token 分段可用 BREAK；负面词影响大。",
+      "example": "(masterpiece, best quality:1.2), (1girl:1.2), garden, soft light, 85mm, film grain"
+    },
+    {
+      "name": "SDXL / SDXL-Turbo",
+      "type": "image",
+      "syntax": "sd",
+      "structure": "自然语言短句 + 主体细节 + 光线 + 风格，画质词精简",
+      "negative": "依赖降低，保留 worst quality / blurry / watermark 即可。",
+      "tips": "支持双文本编码器；过长负面词反而压画质；分辨率建议 1024 起。",
+      "example": "A close-up portrait of an elderly fisherman, golden hour rim light, 85mm, photorealistic"
+    },
+    {
+      "name": "FLUX.1 / SD3",
+      "type": "image",
+      "syntax": "flux",
+      "structure": "一整段完整描述句：主体 → 动作 → 环境 → 光线 → 镜头 → 风格 → 细节",
+      "negative": "多数实现无负面栏，靠正向描述规避问题。",
+      "tips": "不用权重括号、不堆 masterpiece；写具体材质与光，别写抽象画质词。",
+      "example": "A highly detailed photograph of a glassblower at work in a warm workshop, soft directional window light, natural skin texture, shallow depth of field"
+    },
+    {
+      "name": "Pony / 动漫系",
+      "type": "image",
+      "syntax": "sd",
+      "structure": "score_9, score_8_up, 主体标签, 表情, 服装, 背景, 光线",
+      "negative": "建议补 bad eyes / extra tail / monochrome。",
+      "tips": "评分触发词放最前；标签式逗号分隔优于长句。",
+      "example": "score_9, score_8_up, anime, 1girl, expressive eyes, cel shading, cherry blossoms"
+    },
+    {
+      "name": "Midjourney v6 / v7",
+      "type": "image",
+      "syntax": "mj",
+      "structure": "描述句, 风格与镜头词 --ar 16:9 --stylize 250 --no 排除项",
+      "negative": "用 --no 参数，不设独立负面栏。",
+      "tips": "多概念权重 word::2；参数全部写在末尾；--iw 控制参考图权重。",
+      "example": "cinematic portrait of a diver, bioluminescent water::2, 85mm --ar 3:4 --no text, watermark"
+    },
+    {
+      "name": "Qwen-Image / 即梦 / 国产中文模型",
+      "type": "image",
+      "syntax": "flux",
+      "structure": "中文完整描述：主体 + 细节 + 环境 + 光线 + 构图 + 风格",
+      "negative": "按平台实现，通常可选。",
+      "tips": "中文语义理解好，写具体名词与空间关系；文字渲染可直接在提示词里加引号。",
+      "example": "一位穿汉服的女子站在雨后的苏州园林里，柔和的午后侧光，浅景深，写实摄影"
+    },
+    {
+      "name": "Sora 2 / OpenAI 视频",
+      "type": "video",
+      "syntax": "flux",
+      "structure": "一段完整的镜头描述：主体 + 连续动作 + 镜头运动 + 环境变化 + 光线 + 时长/节奏",
+      "negative": "通常无负面栏，靠描述规避。",
+      "tips": "强调时间连续与物理合理；一次只写一个镜头、一个主体动作。",
+      "example": "A single continuous tracking shot follows a cyclist along a coastal road at dawn, camera gliding beside them, long shadows, gentle ocean mist, 8 seconds"
+    },
+    {
+      "name": "Kling 可灵 / Runway Gen-3·4",
+      "type": "video",
+      "syntax": "wan",
+      "structure": "主体动作, 镜头运动(pan/tilt/dolly/zoom), 环境, 光线, 风格, 运动强度",
+      "negative": "建议写 motion blur, flicker, deformed hands, inconsistent character。",
+      "tips": "运镜词单独写最有效；避免多个动作同时发生；可配合首尾帧。",
+      "example": "A woman in a red coat walks through falling snow, slow dolly-in, soft overcast light, subtle motion, cinematic, 5s"
+    },
+    {
+      "name": "Wan2.x / HunyuanVideo / CogVideoX",
+      "type": "video",
+      "syntax": "wan",
+      "structure": "中文或英文长句 + 主体动作 + 镜头 + 光影 + 细节；可加 motion amplitude",
+      "negative": "建议写 抖动、闪烁、肢体畸形、画面撕裂。",
+      "tips": "中英均可；动态幅度别写太满，容易崩；固定 seed 便于对比。",
+      "example": "镜头缓慢推进，一只白猫在窗台上伸懒腰，午后阳光穿过窗帘，毛发细节清晰，画面稳定"
+    },
+    {
+      "name": "AnimateDiff / Pika / Luma / Vidu / 海螺",
+      "type": "video",
+      "syntax": "flux",
+      "structure": "正向提示词 + LoRA/运动模块 + 帧数 fps + 镜头运动词",
+      "negative": "沿用 SD 系负面词，并补 flicker / temporal inconsistency。",
+      "tips": "AnimateDiff 需要配合运动 LoRA；帧数与 fps 影响连贯性；避免剧烈形变。",
+      "example": "slow camera pan over a lavender field at sunrise, gentle breeze, bees drifting, 16 fps, 4s, cinematic"
+    }
+  ]
+}

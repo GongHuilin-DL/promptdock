@@ -1,0 +1,27 @@
+{
+  "page_size": 24,
+  "page_size_options": [
+    8,
+    12,
+    24,
+    48,
+    96
+  ],
+  "global_weight": 1.0,
+  "syntax_profile": "sd",
+  "custom_tpl": "({w}:{v})",
+  "default_target_file": "99_自定义提示语.json",
+  "translate": {
+    "enabled": true,
+    "provider": "gtx",
+    "custom_endpoint": "",
+    "target": "zh-CN",
+    "timeout": 8
+  },
+  "negative_presets": {
+    "完整版（通用 / SD1.5）": "(worst quality, low quality:1.4), (lowres:1.2), bad anatomy, bad hands, missing fingers, extra digits, fused fingers, too many fingers, missing limbs, extra limbs, malformed limbs, mutated hands, poorly drawn hands, poorly drawn face, poorly drawn feet, disfigured, deformed, mutation, textureless, blurry, jpeg artifacts, watermark, signature, username, text, error, cropped, out of frame, low quality, normal quality, bad composition, tiling, airbrush, multiple views, multiple panels, monochrome, oversaturated, undersaturated, bad perspective, distorted, unnatural pose, cross-eyed, lazy eye, bad eyes, extra pupils, missing eyes, asymmetrical eyes, long neck, duplicate, morbid, mutilated, amputation, incomplete, unfinished, (bad proportions:1.2), cloned face, gross proportions, malformed, unclear details, static, noise, pixelated, overexposed, underexposed, flat lighting, harsh lighting, artifacts, glitch, distortion, unnatural colors, ugly, duplicate face, duplicate body, extra heads, faceless",
+    "精简版 · 写实 / 摄影向": "(worst quality, low quality:1.4), lowres, bad anatomy, bad hands, missing fingers, extra digits, blurry, jpeg artifacts, watermark, text, signature, username, deformed, disfigured, mutated, out of frame, cropped, duplicate, morbid, mutilated, bad proportions, ugly",
+    "精简版 · 动漫 / 插画向": "(worst quality, low quality:1.4), lowres, bad anatomy, bad hands, missing fingers, extra digits, bad eyes, multiple tails, extra tail, monochrome, sketch, watermark, signature, username, text, blurry, jpeg artifacts, out of frame, cropped, bad proportions, deformed, mutated, ugly",
+    "文生视频通用负向词": "worst quality, low quality, flicker, temporal inconsistency, jitter, motion blur artifacts, deformed hands, extra limbs, distorted face, inconsistent character, warped background, frame tearing, sudden zoom, camera shake, watermark, text, subtitle, logo, oversaturated, blurry, jpeg artifacts"
+  }
+}

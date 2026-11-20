@@ -1,0 +1,374 @@
+{
+  "categories": [
+    {
+      "name": "人像与人物",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "风景与自然",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "动物与生物",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "建筑与城市",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "艺术风格专项",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "摄影/镜头/光线",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "科幻/奇幻/概念",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "特定用途·商业设计",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "特定用途·印刷版式",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "进阶语法演示",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "美食与饮品",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "静物与产品",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "花卉与植物",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "车辆与交通",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "时尚与服饰",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "节日与庆典",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "天气与天象",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "海洋与水下",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "太空与天文",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "微观与科学",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "运动与竞技",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "儿童与家庭",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "职业与职场",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "历史古文明",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "神话与宗教",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "暗黑与恐怖",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "治愈系Lo-fi",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "游戏美术资产",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "UI与信息图",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "材质与纹理",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "抽象与几何",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "地图与等距",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "文字与排版",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "群像与互动",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "四季与昼夜",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "电影分镜与镜头语言",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "画种扩展",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "艺术家风格扩展",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "地域文化",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "朋克变体",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "古生物与恐龙",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "昆虫与节肢",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "深海与奇异生物",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "神话生物",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "室内与家具",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "珠宝与腕表",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "乐器与音乐",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "舞蹈与舞台",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "建筑蓝图与剖面",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "纸艺与手作",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "黏土与微缩模型",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "玻璃/液体/烟雾/火焰",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "体积光与焦散",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "色彩方案",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "构图法则",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "特殊视角",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "画幅比例",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "提示词高级语法",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "模型适配写法",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "商业设计交付",
+      "kind": "image",
+      "note": ""
+    },
+    {
+      "name": "运镜与镜头运动",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "人物动作与表演",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "自然动态与天气",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "城市与街景",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "动物与野生",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "水下与海洋",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "科幻与太空",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "奇幻与魔法",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "产品广告与静物",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "延时与时间流逝",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "转场与首尾帧",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "风格化与动画",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "微距与科学",
+      "kind": "video",
+      "note": ""
+    },
+    {
+      "name": "氛围与电影感",
+      "kind": "video",
+      "note": ""
+    }
+  ]
+}
